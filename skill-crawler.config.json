@@ -40,18 +40,43 @@
       "name": "x-research",
       "local_path": "~/clawd/skills/x-research-api",
       "github_repo": "rohunvora/x-research-skill"
+    },
+    {
+      "name": "repo-analyzer",
+      "github_repo": "Don-GBot/Repo-Analyzer",
+      "local_path": "~/.openclaw/skills/repo-analyzer"
+    },
+    {
+      "name": "sme",
+      "github_repo": "Bryptobricks/Structured-Memory-Engine",
+      "local_path": "~/Projects/Structured-Memory-Engine"
     }
   ],
   "watch_repos": [
     {
       "name": "openclaw",
       "github_repo": "openclaw/openclaw",
-      "context": "Core platform — track for new features, breaking changes, skill API updates"
+      "context": "Core platform \u2014 track for new features, breaking changes, skill API updates"
     },
     {
       "name": "clawhub-skills",
       "github_repo": "openclaw/skills",
-      "context": "Official skill registry — new community skills"
+      "context": "Official skill registry \u2014 new community skills"
+    },
+    {
+      "name": "bd-intern",
+      "github_repo": "mmashiat/bd-intern",
+      "context": "movement.yaml architecture + /agenda format"
+    },
+    {
+      "name": "siftly",
+      "github_repo": "viperrcrypto/Siftly",
+      "context": "Bookmark vision pipeline + 4-stage AI enrichment"
+    },
+    {
+      "name": "gigabrain",
+      "github_repo": "legendaryvibecoder/gigabrain",
+      "context": "Memory layer architecture review"
     }
   ]
 }
