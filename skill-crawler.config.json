@@ -1,0 +1,57 @@
+{
+  "telegram_chat_id": "298796273",
+  "installed_skills": [
+    {
+      "name": "source-library",
+      "local_path": "~/.openclaw/skills/source-library",
+      "github_repo": "Don-GBot/source-library"
+    },
+    {
+      "name": "trade",
+      "local_path": "~/.openclaw/skills/trade",
+      "github_repo": "rohunvora/paste-trade-skill"
+    },
+    {
+      "name": "adversarial-review",
+      "local_path": "~/.openclaw/skills/adversarial-review",
+      "github_repo": "Don-GBot/adversarial-review"
+    },
+    {
+      "name": "flight-search",
+      "local_path": "~/.openclaw/skills/flight-search",
+      "github_repo": "wiziswiz/flight-search-agent"
+    },
+    {
+      "name": "consensus-researcher",
+      "local_path": "~/.openclaw/skills/consensus-researcher",
+      "github_repo": "Bryptobricks/consensus-researcher"
+    },
+    {
+      "name": "frontend-slides",
+      "local_path": "~/.openclaw/skills/frontend-slides",
+      "github_repo": "zarazhangrui/frontend-slides"
+    },
+    {
+      "name": "credit-repair",
+      "local_path": "~/.openclaw/skills/credit-repair",
+      "github_repo": "wiziswiz/credit-repair-skill"
+    },
+    {
+      "name": "x-research",
+      "local_path": "~/clawd/skills/x-research-api",
+      "github_repo": "rohunvora/x-research-skill"
+    }
+  ],
+  "watch_repos": [
+    {
+      "name": "openclaw",
+      "github_repo": "openclaw/openclaw",
+      "context": "Core platform — track for new features, breaking changes, skill API updates"
+    },
+    {
+      "name": "clawhub-skills",
+      "github_repo": "openclaw/skills",
+      "context": "Official skill registry — new community skills"
+    }
+  ]
+}

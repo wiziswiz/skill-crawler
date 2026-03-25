@@ -47,7 +47,7 @@ if [[ "$CHAT_ID" == "YOUR_CHAT_ID" ]]; then
 fi
 
 # --- State directory for dedup ---
-STATE_DIR="/tmp/skill-crawler"
+STATE_DIR="$HOME/.openclaw/skills/skill-crawler/.state"
 mkdir -p "$STATE_DIR"
 
 # --- Parse config with Python (portable, no jq dependency) ---
