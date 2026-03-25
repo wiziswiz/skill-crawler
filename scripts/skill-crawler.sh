@@ -116,10 +116,14 @@ while IFS='|' read -r name local_path github_repo; do
       local_sha="$(git -C "$local_path" rev-parse HEAD 2>/dev/null)"
       remote_sha="$(git -C "$local_path" rev-parse FETCH_HEAD 2>/dev/null)"
       
-      if [[ -n "$local_sha" && -n "$remote_sha" && "$local_sha" != "$remote_sha" ]]; then
-        count="$(git -C "$local_path" rev-list HEAD..FETCH_HEAD --count 2>/dev/null || echo "?")"
-        new_sha="$remote_sha"
-        behind="$count commits behind"
+      if [[ -n "$local_sha" && -n "$remote_sha" ]]; then
+        if [[ "$local_sha" != "$remote_sha" ]]; then
+          count="$(git -C "$local_path" rev-list HEAD..FETCH_HEAD --count 2>/dev/null || echo "?")"
+          new_sha="$remote_sha"
+          behind="$count commits behind"
+        else
+          new_sha="$local_sha"
+        fi
       fi
     else
       echo "WARN: git fetch failed for $name, falling back to API" >&2
