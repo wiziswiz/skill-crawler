@@ -48,7 +48,7 @@
     },
     {
       "name": "sme",
-      "github_repo": "Bryptobricks/Structured-Memory-Engine",
+      "github_repo": "wiziswiz/Structured-Memory-Engine",
       "local_path": "~/Projects/Structured-Memory-Engine"
     }
   ],
@@ -77,6 +77,16 @@
       "name": "gigabrain",
       "github_repo": "legendaryvibecoder/gigabrain",
       "context": "Memory layer architecture review"
+    },
+    {
+      "name": "sme-upstream",
+      "github_repo": "Bryptobricks/Structured-Memory-Engine",
+      "context": "Upstream SME \u2014 cherry-pick new features into our fork"
+    },
+    {
+      "name": "skill-crawler",
+      "github_repo": "wiziswiz/skill-crawler",
+      "context": "Self-tracking \u2014 catch pushes from other machines"
     }
   ]
 }
